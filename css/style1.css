@@ -1,0 +1,384 @@
+@font-face {
+  font-family: "Museo";
+  src: url('../assets/fonts/museo/museo-300-webfont.woff')
+}
+
+@font-face {
+  font-family: "Blanch";
+  src: url('../assets/fonts/Blanch/BLANCH_CONDENSED_LIGHT.ttf')
+}
+
+/************************ body **************************/
+
+body {
+  background: url(https://github.com/stephaniehenry/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
+  background-color: #FAF8F1;
+  background-blend-mode: multiply;
+}
+
+/************************ nav **************************/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  margin: 0px 20px;
+}
+
+div a {
+  text-decoration: none;
+  color: lightgray;
+  font-size: 1.25em;
+  font-family: museo, sans-serif;
+}
+
+#left {
+  padding: 10px;
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+div #right {
+  display: flex;
+  width: 7vw;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+#right {
+  padding: 10px;
+}
+
+.social{
+  width: 40px;
+  margin: 0px 10px 0px 0px;
+  border-radius: 5px;
+}
+
+div#right p {
+  display: inline;
+}
+
+img {
+  align-self: flex-end;
+}
+
+/******************* featured image *********************/
+
+#studentDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+
+#leftDetails {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+#featuredImage {
+  postion: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: solid white 15px;
+  height: 500px;
+  margin: 40px 20px 0px;
+  background: url(../assets/photos/portrait1);
+  background-size: cover;
+  background-position: center;
+}
+
+.featuredImageOverlay {
+  display: flex;
+	justify-content: flex-end;
+  align-content: flex-end;
+  background: rgb(0,0,0,.5);
+}
+
+div#featuredImage div {
+  padding: 0px 20px;
+  color: white;
+  text-align: right;
+}
+
+.arrows {
+  position: absolute;
+  width: 50px;
+  top: 350px;
+  left: 20px;
+  
+}
+
+#rightArrow {
+  left: 1463px;
+}
+
+.altImages {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+}
+
+.imgs {
+  width: 100%;
+  height: 20vh;
+  margin: 10px 20px;
+  border: solid white 10px;
+}
+
+#img1 {
+  background: url("../assets/photos/portrait3");
+  background-size: cover;
+}
+
+#img2 {
+  background: url("../assets/photos/portrait7");
+  background-size: cover;
+}
+
+#img3 {
+  background: url("../assets/photos/portrait8");
+  background-size: cover;
+}
+
+#studentContact {
+  padding: 10px;
+}
+
+
+#studentInfo {
+  padding: 20px;
+  background: white;
+  width: 33vw;
+  margin: 40px 20px 0px;
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+#studentImage {
+  width: 100px;
+  height: 100px;
+  margin: 1%;
+  background: url("../assets/photos/me");
+  background-size: cover;
+}
+
+.social2 {
+  width: 20px;
+  margin: 0px;
+  border-radius: 5px;
+}
+
+
+#rightDetails {
+  width: 40%;
+  height: 100vh;
+}
+
+#aboutProject {
+  background: white;
+  padding: 20px;
+  height: 60%;
+  margin: 20px 20px 0px;
+  width: 33vw;
+}
+
+.projectDescription {
+  color: black;
+  font-size: 1.25em;
+}
+
+/************************ gallery *********************/
+#portfolioOwner {
+  color: black;
+  margin: 1%;
+  font-size: 2em;
+  font-family: "Museo", sans-serif;
+}
+#tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tile {
+  height: 33vh;
+  width: 23%;
+  margin: 1%;
+}
+
+#tile1 {
+  background: url("../assets/photos/portfolio1");
+  background-size: cover;
+}
+
+#tile2 {
+  background: url("../assets/photos/portfolio2");
+  background-size: cover;
+}
+
+#tile3 {
+  background: url("../assets/photos/centerPlace1");
+  background-size: cover;
+}
+
+#tile4 {
+  background: url("../assets/photos/centerPlace2");
+  background-size: cover;
+}
+
+#tile5 {
+  background: url("../assets/photos/centerPlace3");
+  background-size: cover;
+}
+
+#tile6 {
+  background: url("../assets/photos/product1");
+  background-size: cover;
+}
+
+#tile7 {
+  background: url("../assets/photos/product2");
+  background-size: cover;
+}
+
+#tile8 {
+  background: url("../assets/photos/tomFace");
+  background-size: cover;
+}
+
+
+/************************ twitter bar **************************/
+
+#tweetBar {
+  background: gray;
+  color: white;
+  text-align: center;
+  height: 8vh;
+  width: 100vw;
+  margin: 40px 0px 0px ;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#twitterBird {
+  width: 30px;
+  padding: 15px 0px;
+}
+
+#tweet, #hashtag {
+  padding: 5px 10px;
+}
+
+#time {
+  font-size: .5em;
+  padding: 15px 0px;
+}
+
+/********************* footer ****************/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background: url(https://github.com/stephaniehenry/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+  background-color: #a6a69d;
+  background-blend-mode: multiply;
+  width: 100vw;
+}
+
+.footerSection {
+  width: 33%;
+  margin: 1%;
+}
+
+#footerNav {
+  padding: 10px;
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#searchBox {
+  height: 4vh;
+  width: 100%;
+  background: white;
+  padding: 0.3%;
+  font-family: museo, sans-serif;
+}
+
+#tiles2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tile2 {
+  height: 10vh;
+  width: 23%;
+  margin: 1%;
+}
+
+#tile11 {
+  background: url(http://placekitten.com/1000/700);
+  background-size: cover;
+}
+
+#tile21 {
+  background: url(http://placekitten.com/500/300);
+  background-size: cover;
+}
+
+#tile31 {
+  background: url(http://placekitten.com/500/350);
+  background-size: cover;
+}
+
+#tile41 {
+  background: url(http://placekitten.com/500/325);
+  background-size: cover;
+}
+
+#tile51 {
+  background: url(http://placekitten.com/525/325);
+  background-size: cover;
+}
+
+#tile61 {
+  background: url(http://placekitten.com/400/225);
+  background-size: cover;
+}
+
+#tile71 {
+  background: url(http://placekitten.com/410/225);
+  background-size: cover;
+}
+
+#tile81 {
+  background: url(https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg);
+  background-size: cover;
+}
+
+p, h3, h4, h5 {
+  font-family: museo, sans-serif;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 2em;
+}
+
+p {
+  color: white;
+}
