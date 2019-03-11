@@ -1,0 +1,284 @@
+@font-face {
+  font-family: "Museo";
+  src: url('../assets/fonts/museo/museo-300-webfont.woff')
+}
+
+/************************ body **************************/
+
+body {
+  background: url(https://github.com/stephaniehenry/web_1_project_2/blob/master/assets/textures/fabric_plaid.png?raw=true);
+  background-color: #FAF8F1;
+  background-blend-mode: multiply;
+}
+
+/************************ nav **************************/
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  margin: 0px 20px;
+}
+
+div a {
+  text-decoration: none;
+  color: lightgray;
+  font-size: 1.25em;
+  font-family: museo, sans-serif;
+}
+
+#left {
+  padding: 10px;
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+div #right {
+  display: flex;
+  width: 7vw;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+#right {
+  padding: 10px;
+}
+
+.social{
+  width: 40px;
+  margin: 0px 10px 0px 0px;
+  border-radius: 5px;
+}
+
+div#right p {
+  display: inline;
+}
+
+img {
+  align-self: flex-end;
+}
+
+/******************* featured image *********************/
+
+#featuredImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  border: solid white 15px;
+  height: 500px;
+  margin: 40px 20px 0px;
+  background: url(http://placekitten.com/1920/1080);
+  background-size: cover;
+  background-position: center;
+}
+
+.featuredImageOverlay {
+  display: flex;
+	justify-content: flex-end;
+  align-content: flex-end;
+  background: rgb(0,0,0,.5);
+}
+
+div#featuredImage div {
+  padding: 0px 20px;
+  color: white;
+  text-align: right;
+  font-family: museo, sans-serif;
+}
+
+.arrows {
+  position: absolute;
+  width: 50px;
+  bottom: 330px;
+}
+
+#rightArrow {
+  right: 20px;
+}
+
+/*********************** description text ************************/
+
+#description {
+  text-align: center;
+  font-family: museo, sans-serif;
+  color: black;
+  font-size: 2em;
+}
+
+/************************ gallery **************************/
+
+#tiles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tile {
+  height: 33vh;
+  width: 23%;
+  margin: 1%;
+}
+
+#tile1 {
+  background: url(http://placekitten.com/1000/700);
+  background-size: cover;
+}
+
+#tile2 {
+  background: url(http://placekitten.com/500/300);
+  background-size: cover;
+}
+
+#tile3 {
+  background: url(http://placekitten.com/500/350);
+  background-size: cover;
+}
+
+#tile4 {
+  background: url(http://placekitten.com/500/325);
+  background-size: cover;
+}
+
+#tile5 {
+  background: url(http://placekitten.com/525/325);
+  background-size: cover;
+}
+
+#tile6 {
+  background: url(http://placekitten.com/400/225);
+  background-size: cover;
+}
+
+#tile7 {
+  background: url(http://placekitten.com/410/225);
+  background-size: cover;
+}
+
+#tile8 {
+  background: url(https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg);
+  background-size: cover;
+}
+
+#tile9 {
+  background: url(https://cdn-images-1.medium.com/max/1600/1*mONNI1lG9VuiqovpnYqicA.jpeg);
+  background-size: cover;
+}
+
+#tile10 {
+  background: url(https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=animal-cat-cute-45201.jpg&fm=jpg);
+  background-size: cover;
+}
+#tile11 {
+  background: url(https://resources.stuff.co.nz/content/dam/images/1/u/3/p/0/r/image.related.StuffLandscapeSixteenByNine.1420x800.1u3oow.png/1551733811531.jpg);
+  background-size: cover;
+}
+
+#tile12 {
+  background: url(http://i.imgur.com/A9G8DK0.jpg);
+  background-size: cover;
+}
+
+/*********************** view more button ************************/
+
+.button {
+  color: white;
+  text-decoration: none;
+  background: url(https://github.com/stephaniehenry/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+  padding: 10px 50px;
+  background-color: #a6a69d;
+  background-blend-mode: multiply;
+  font-family: museo, sans-serif;
+}
+
+#button {
+  display: flex;
+  justify-content: center;
+}
+
+/************************ twitter bar **************************/
+
+#tweetBar {
+  background: gray;
+  color: white;
+  text-align: center;
+  height: 8vh;
+  width: 100vw;
+  margin: 40px 0px 0px ;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+#twitterBird {
+  width: 30px;
+  padding: 15px 0px;
+}
+
+#tweet, #hashtag {
+  padding: 5px 10px;
+  font-family: museo, sans-serif;
+}
+
+#time {
+  font-size: .5em;
+  padding: 15px 0px;
+  font-family: museo, sans-serif;
+}
+
+/********************* footer ****************/
+
+footer {
+  display: flex;
+  justify-content: space-around;
+  background: url(https://github.com/stephaniehenry/web_1_project_2/blob/master/assets/textures/az_subtle.png?raw=true);
+  background-color: #a6a69d;
+  background-blend-mode: multiply;
+  width: 100vw;
+}
+
+.footerSection {
+  width: 33%;
+  margin: 1%;
+}
+
+#footerNav {
+  padding: 10px;
+  display: flex;
+  width: 30vw;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#searchBox {
+  height: 4vh;
+  width: 100%;
+  background: white;
+  padding: 0.3%;
+  font-family: museo, sans-serif;
+}
+
+#tiles2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.tile2 {
+  height: 10vh;
+  width: 23%;
+  margin: 1%;
+}
+
+p, h4 {
+  font-family: museo, sans-serif;
+}
+
+h4 {
+  font-size: 1.5em;
+}
+
+p {
+  color: white;
+}
