@@ -93,7 +93,7 @@ div#featuredImage div {
 .arrows {
   position: absolute;
   width: 50px;
-  bottom: 10%;
+  top: 350px;
   left: 1%;
 }
 
