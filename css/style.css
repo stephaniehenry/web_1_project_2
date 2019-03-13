@@ -32,14 +32,17 @@ div a {
   display: flex;
   width: 30vw;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
 }
 
 div #right {
   display: flex;
-  width: 7vw;
-  justify-content: flex-end;
+  flex-direction: column;
+  width: 40vw;
+  justify-content: space-between;
+  align
   flex-wrap: wrap;
+
 }
 
 #right {
@@ -48,7 +51,6 @@ div #right {
 
 .social{
   width: 40px;
-  margin: 0px 10px 0px 0px;
   border-radius: 5px;
 }
 
@@ -69,7 +71,7 @@ img {
   border: solid white 15px;
   height: 500px;
   margin: 40px 20px 0px;
-  background: url("../assets/photos/portrait1.jpg");
+  background: url(http://placekitten.com/1920/1080);
   background-size: cover;
   background-position: center;
 }
@@ -91,11 +93,12 @@ div#featuredImage div {
 .arrows {
   position: absolute;
   width: 50px;
-  bottom: 330px;
+  bottom: 10%;
+  left: 1%;
 }
 
 #rightArrow {
-  right: 20px;
+  left: 96%;
 }
 
 /*********************** description text ************************/
@@ -122,61 +125,61 @@ div#featuredImage div {
 }
 
 #tile1 {
-  background: url("http://placekitten.com/1000/700");
+  background: url(http://placekitten.com/1000/700);
   background-size: cover;
 }
 
 #tile2 {
-  background: url("http://placekitten.com/500/300");
+  background: url(http://placekitten.com/500/300);
   background-size: cover;
 }
 
 #tile3 {
-  background: url("http://placekitten.com/500/350");
+  background: url(http://placekitten.com/500/350);
   background-size: cover;
 }
 
 #tile4 {
-  background: url("http://placekitten.com/500/325");
+  background: url(http://placekitten.com/500/325);
   background-size: cover;
 }
 
 #tile5 {
-  background: url("http://placekitten.com/525/325");
+  background: url(http://placekitten.com/525/325);
   background-size: cover;
 }
 
 #tile6 {
-  background: url("http://placekitten.com/400/225");
+  background: url(http://placekitten.com/400/225);
   background-size: cover;
 }
 
 #tile7 {
-  background: url("http://placekitten.com/410/225");
+  background: url(http://placekitten.com/410/225);
   background-size: cover;
 }
 
 #tile8 {
-  background: url("https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg");
+  background: url(https://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg);
   background-size: cover;
 }
 
 #tile9 {
-  background: url("http://placekitten.com/1920/1080");
+  background: url(https://cdn-images-1.medium.com/max/1600/1*mONNI1lG9VuiqovpnYqicA.jpeg);
   background-size: cover;
 }
 
 #tile10 {
-  background: url("https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=animal-cat-cute-45201.jpg&fm=jpg");
+  background: url(https://images.pexels.com/photos/45201/kitty-cat-kitten-pet-45201.jpeg?cs=srgb&dl=animal-cat-cute-45201.jpg&fm=jpg);
   background-size: cover;
 }
 #tile11 {
-  background: url("https://resources.stuff.co.nz/content/dam/images/1/u/3/p/0/r/image.related.StuffLandscapeSixteenByNine.1420x800.1u3oow.png/1551733811531.jpg");
+  background: url(https://resources.stuff.co.nz/content/dam/images/1/u/3/p/0/r/image.related.StuffLandscapeSixteenByNine.1420x800.1u3oow.png/1551733811531.jpg);
   background-size: cover;
 }
 
 #tile12 {
-  background: url("http://i.imgur.com/A9G8DK0.jpg");
+  background: url(http://i.imgur.com/A9G8DK0.jpg);
   background-size: cover;
 }
 
