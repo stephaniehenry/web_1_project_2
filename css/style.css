@@ -42,7 +42,7 @@ div #right {
   justify-content: space-between;
   align
   flex-wrap: wrap;
-
+  border: solid green;
 }
 
 #right {
@@ -71,22 +71,14 @@ img {
   border: solid white 15px;
   height: 500px;
   margin: 40px 20px 0px;
-<<<<<<< HEAD
-<<<<<<< HEAD
-  background: url("/assets/photos/portrait1");
-=======
-  background: url(http://placekitten.com/1920/1080);
->>>>>>> parent of 9f3f28f... Updated All Links and Finalized Project
-=======
-  background: url(http://placekitten.com/1920/1080);
->>>>>>> parent of 9f3f28f... Updated All Links and Finalized Project
+  background: url("../assets/photos/portrait1.jpg");
   background-size: cover;
   background-position: center;
 }
 
 .featuredImageOverlay {
   display: flex;
-  justify-content: flex-end;
+	justify-content: flex-end;
   align-content: flex-end;
   background: rgb(0,0,0,.5);
 }

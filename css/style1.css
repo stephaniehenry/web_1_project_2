@@ -87,7 +87,7 @@ img {
   border: solid white 15px;
   height: 500px;
   margin: 40px 20px 0px;
-  background: url(/assets/photos/portrait1);
+  background: url("../assets/photos/portrait1.jpg");
   background-size: cover;
   background-position: center;
 }
@@ -132,17 +132,17 @@ div#featuredImage div {
 }
 
 #img1 {
-  background: url("/assets/photos/portrait3");
+  background: url("../assets/photos/portrait3.jpg");
   background-size: cover;
 }
 
 #img2 {
-  background: url("/assets/photos/portrait7");
+  background: url("../assets/photos/portrait7.jpg");
   background-size: cover;
 }
 
 #img3 {
-  background: url("/assets/photos/portrait8");
+  background: url("../assets/photos/portrait8.jpg");
   background-size: cover;
 }
 
@@ -166,7 +166,7 @@ div#featuredImage div {
   width: 100px;
   height: 100px;
   margin: 1%;
-  background: url("/assets/photos/me");
+  background: url("../assets/photos/me.jpg");
   background-size: cover;
 }
 
@@ -215,42 +215,42 @@ div#featuredImage div {
 }
 
 #tile1 {
-  background: url("/assets/photos/portfolio1");
+  background: url("../assets/photos/portfolio1.jpg");
   background-size: cover;
 }
 
 #tile2 {
-  background: url("/assets/photos/portfolio2");
+  background: url("../assets/photos/portfolio2.jpg");
   background-size: cover;
 }
 
 #tile3 {
-  background: url("/assets/photos/centerPlace1");
+  background: url("../assets/photos/centerPlace1.jpg");
   background-size: cover;
 }
 
 #tile4 {
-  background: url("/assets/photos/centerPlace2");
+  background: url("../assets/photos/centerPlace2.jpg");
   background-size: cover;
 }
 
 #tile5 {
-  background: url("/assets/photos/centerPlace3");
+  background: url("../assets/photos/centerPlace3.jpg");
   background-size: cover;
 }
 
 #tile6 {
-  background: url("/assets/photos/product1");
+  background: url("../assets/photos/product1.jpg");
   background-size: cover;
 }
 
 #tile7 {
-  background: url("/assets/photos/product2");
+  background: url("../assets/photos/product2.jpg");
   background-size: cover;
 }
 
 #tile8 {
-  background: url("/assets/photos/tomFace");
+  background: url("../assets/photos/tomFace.jpg");
   background-size: cover;
 }
 
